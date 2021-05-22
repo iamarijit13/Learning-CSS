@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.main-section {
+    
+}
+
+.main-class__div1 {
+    padding: 20px 30px 50px 80px;
+    border: 5px solid blue;
+    background-color: aquamarine;
+    margin: 2px 3px 5px 8px;
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+    display: none;
+}
+
+.main-class__div1:hover {
+    background-color: red;
+}
+
+.main-class__div2 {
+    padding: 20px 30px 50px 80px;
+    border: 5px solid blue;
+    background-color: aquamarine;
+    margin: 2px 3px 5px 8px;
+    display: inline-block;
+}
+
+.main-class__div2:hover {
+    background-color: red;
+}

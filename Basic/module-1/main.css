@@ -1,0 +1,62 @@
+/* body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+    background: #ff1b68;
+    
+}
+
+/* combinator */
+/* There are four type of combinators.
+1. Adjacent Cibling  div + p { } have to have the same parent. A nd also need to be the immediate sibling.
+2. General Sibling div ~ p { } Have to have the same parent but not necessary to be the immediate sibling.
+3. Child div > p { } Have to have the direct chield. Not applied to the nested chields.
+4. Descendent  div p { } Second element have to the decendent of the first element, not need to be the direct chield. It can be a nested chield.
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+    color: #2ddf5c;
+} */
+
+#assignment-instructions {
+    color: blue;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.second-li{
+    color: green;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+li + li {
+    background-color: black;
+    color: white;
+}
+
+ol > li {
+    background-color: black;
+    color: white;
+}
+
+/* Complete MDN CSS Reference (don't learn this by heart!): https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+Do you prefer reading? Find written CSS docs on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+Common CSS Properties Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
+
+CSS Combinators: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors
+
+More details on CSS Specifity: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
